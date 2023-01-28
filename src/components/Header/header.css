@@ -1,0 +1,20 @@
+.header{
+  background:var(--dark-blue);
+  color:#fff;
+}
+
+.header__inner{
+  max-width:700px;
+  margin:auto;
+  padding:30px 5px 80px 5px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(max-width:480px){
+  .header__inner{
+    justify-content: center;
+    flex-direction: column;
+  }
+}

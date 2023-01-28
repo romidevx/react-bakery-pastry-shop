@@ -1,0 +1,19 @@
+.message__modal{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  /* background: rgba(0,0,0,.3); */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+
+.message__modal-inner{
+  background: #028130;
+  color:#fff;
+  padding:20px;
+  box-shadow: 2px 3px 33px rgba(0,0,0,.7);
+}

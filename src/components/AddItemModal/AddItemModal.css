@@ -1,0 +1,80 @@
+
+.add__item-modal{
+  position:fixed;
+  width: 100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,.5);
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  width:280px;
+  height:auto;
+  background:#fff;
+  padding:15px;
+}
+
+.menu__items{
+  margin:5px 0 15px 0;
+  height:160px;
+  overflow-y: scroll;
+  border: .5px solid rgba(0,0,0,.2);
+}
+
+.menu_item{
+  padding:8px 5px;
+  cursor: pointer;
+}
+
+.menu_item:hover{
+  background:#000;
+  color:#fff;
+}
+
+
+.item__toAdd-title{
+  margin:15px 0 20px 0;
+}
+
+.item__toAdd-quantidy input{
+  width:100%;
+  padding:8px 3px;
+  margin:0 3px 30px 3px;
+}
+
+.add__button{
+  width:100%;
+  padding:8px 10px;
+  margin:0 0 15px 0;
+  background: #044e7c;
+  border:none;
+  color:#fff;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cancel__button{
+  width:100%;
+  padding:8px 10px;
+  margin:0 0 15px 0;
+  background: #c00c1c;
+  border:none;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.add__button:hover, .cancel__button:hover{
+  opacity: .9;
+}
+@media(max-width:480px){
+  .modal{
+    width:100%;
+  }
+  
+}

@@ -1,0 +1,17 @@
+export const items = [
+  { id:1, title: 'Lasanha Bolonhesa',       category: 'italiana', price:30.00 },
+  { id:2, title: 'Macarronada',             category: 'italiana', price:22.00 },
+  { id:3, title: 'Pizza',                   category: 'italiana', price:43.00 },
+  { id:4, title: 'X-Tudo',                  category: 'lanches',  price:20.00 },
+  { id:5, title: 'X-Bacon',                 category: 'lanches',  price:17.00 },
+  { id:6, title: 'X-Simples',               category: 'lanches',  price:12.00 },
+  { id:7, title: 'Batata Frita',            category: 'fritas',   price:10.00 },
+  { id:8, title: 'Batata Frita c/ bacon',   category: 'fritas',   price:17.00 },
+  { id:9, title: 'Batata Frita c/ cheddar', category: 'fritas',   price:24.00 },
+  { id:10, title: 'Pão na chapa',           category: 'padaria',  price:6.00  },
+  { id:11, title: 'Misto quente',           category: 'padaria',  price:12.00 },
+  { id:12, title: 'Coxinha',                category: 'padaria',  price:7.00  },
+  { id:13, title: 'Risole',                 category: 'padaria',  price:7.00  },
+  { id:14, title: 'Coca-Cola 250ml',        category: 'bebidas',  price:4.00  },
+  { id:15, title: 'Suco 350ml',             category: 'bebidas',  price:6.00  },
+];
